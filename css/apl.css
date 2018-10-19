@@ -1,0 +1,31 @@
+/*-------------------------------------------adminpanel.PHP-------------------------------------------*/
+/*---Общее---*/
+* {
+    font-family: "Arial Black", Arial;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+body {
+    background-color: #424242;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+}
+
+.infoText {
+    color: red;
+}
+/*---Основная часть---*/
+.text {
+    border: 0px;
+    float: left;
+    color: red;
+}
+
+#box {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: yellow;
+}
+/*---Подвал---*/

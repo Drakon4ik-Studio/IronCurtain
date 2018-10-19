@@ -1,0 +1,236 @@
+/*------------------------------------------Для всех страниц------------------------------------------*/
+/*---Общее---*/
+* {
+    font-family: Arial;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.ico {
+    float: left;
+    height: 90%;
+    width: 10%;
+    margin: 10px;
+}
+
+.menuL {
+    height: 93%;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.profiler {
+    float: bottom;
+    color: black;
+    padding-left: 3px;
+    background-color: red;
+}
+
+.profilerP {
+    margin-top: 3px;
+    color: black;
+    background-color: red;
+}
+
+.warning {
+    text-shadow:
+            white 1px 1px 0,
+            white -1px -1px 0,
+            white -1px 1px 0,
+            white 1px -1px 0;
+    color: red;
+}
+
+.globalstore {
+    color: green;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-size: 16;
+    float: left;
+    height: 510px;
+}
+
+/*---Шапка---*/
+.left_top {
+    background-image: url('/images/left_top.jpg');
+    width: 1.7%;
+    height: 17px;
+    float: left;
+    background-size: cover;
+}
+
+.top {
+    background-image: url(/images/top.jpg);
+    width: 89.3%;
+    height: 17px;
+    float: left;
+    background-size: cover;
+}
+
+.right_top {
+    background-image: url('/images/right_top.jpg');
+    width: 9%;
+    height: 17px;
+    float: left;
+    background-size: cover;
+}
+/*---Левая---*/
+.left {
+    background-image: url('/images/left.jpg');
+    width: 1.7%;
+    height: 95%;
+    float: left;
+    background-size: cover;
+}
+
+/*---Правая---*/
+.right {
+    background-image: url('/images/right.jpg');
+    width: 9%;
+    height: 95%;
+    float: right;
+    background-size: cover;
+}
+/*---Подвал---*/
+footer {
+    width: 100%;
+    float: left;
+}
+
+.left_bottom {
+    background-image: url('/images/left_bottom.jpg');
+    width: 1.7%;
+    height: 17px;
+    float: left;
+    background-size: cover;
+}
+
+.bottom {
+    background-image: url('/images/bottom.jpg');
+    width: 89.3%;
+    height: 17px;
+    float: left;
+    background-size: cover;
+}
+
+.right_bottom {
+    background-image: url('/images/right_bottom.jpg');
+    width: 9%;
+    height: 17px;
+    float: left;
+    background-size: cover;
+}
+/*---Кнопки---*/
+.buttonAll {
+    margin: 10px 10px 10px 0px;
+    padding: 10px 0px;
+}
+
+#click, #clickAD {
+    padding: 5px 27px;
+    background: black;
+    border-radius: 60px;
+    border: 0px solid blue;
+    transition: 0.075s;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+#click:hover {
+    border: 2px solid blue;
+}
+
+#clickAD {
+    background: red;
+}
+
+#clickAD {
+    border: 2px solid white;
+}
+/*-------------------------------------------USERS.PHP-------------------------------------------*/
+/*---Основная часть---*/
+table {
+    text-align: left;
+    border-collapse: collapse;
+    border: white;
+}
+tr, td {
+    background: black;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+}
+
+.aLogin {
+    color: red;
+}
+/*-------------------------------------------ADMAUTH.PHP-------------------------------------------*/
+/*---Основная часть---*/
+#logClick {
+    padding: 5px 180px;
+    background: red;
+    border: 0px;
+    text-align: center;
+    color: black;
+    float: left;
+    font-size: 25px;
+}
+
+.centerForm {
+    float: left;
+    margin: 15% 7%;
+}
+
+.formLogin {
+    opacity: 0.7;
+    text-align: center;
+    color: black;
+}
+
+.textLog {
+    color: black;
+}
+
+.fonL, .fonP {
+    font-size: 30px;
+    float: left;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color: red;
+    margin-bottom: 4px;
+}
+
+#auzFormL, #auzFormP {
+    color: black;
+    background-color: red;
+    text-align: center;
+    border: none;
+    font-size: 28px;
+    position: inherit;
+    margin-left: 5px;
+    margin-bottom: 4px;
+}
+
+.errors {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+/*-------------------------------------------СТРАНИЦА.PHP-------------------------------------------*/
+/*---Шапка---*/
+/*---Основная часть---*/
+/*---Подвал---*/
