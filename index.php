@@ -24,9 +24,9 @@
 <!--	       		<div class="buttonAll">-->
 <!--	            	<a href="edit/pages/accessdenied" id="clickAD">AP</a>-->
 <!--	        	</div>-->
-<!--	        	<div class="buttonAll">-->
-<!--	            	<a href="edit/signup.php" id="clickAD">Регистрация</a>-->
-<!--	        	</div>-->
+	        	<div class="buttonAll">
+                    <a href="signup" id="clickAD">Регистрация</a>
+                </div>
         	<?php endif; ?>
 		</div>
 		<div class="profiler">

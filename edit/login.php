@@ -69,7 +69,7 @@
 				</div>
 				<input type="password" name="password" value="<?php echo @$data['password']; ?>" id="auzFormP">
 			</div>
-            <a href="signup.php" id="logRegClick">РЕГИСТРАЦИЯ</a>
+            <a href="../signup.php" id="logRegClick">РЕГИСТРАЦИЯ</a>
 			<button type="sumbit" name="do_login" id="logClick">АВТОРИЗИРОВАТЬСЯ</button>
 		</form>
 	</div>

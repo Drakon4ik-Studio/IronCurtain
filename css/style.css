@@ -3,6 +3,7 @@
 * {
     font-family: "Arial Black", Arial;
     font-weight: 900;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     color: white;
@@ -33,7 +34,7 @@ body {
 }
 
 .profiler {
-    float: left, bottom;
+    float: left;
     color: black;
     padding-left: 3px;
     background-color: red;
@@ -119,7 +120,7 @@ footer {
     color: green;
     padding-top: 15px;
     padding-bottom: 30px;
-    font-size: 16;
+    font-size: 16px;
     float: left;
     height: 510px;
 }
@@ -137,7 +138,6 @@ footer {
     transition: 0.075s;
     margin: 5px 10px;
     text-align: center;
-    margin-top: 10px;
 }
 
 #click:hover {
@@ -155,7 +155,6 @@ footer {
 /*---Основная часть---*/
 .block1, .nameBlock, .textBlock {
     color: white;
-    font-family: "Arial Black";
 }
 
 .block1 {
@@ -166,21 +165,30 @@ footer {
 }
 
 .nameBlock {
-    font-size: 20;
+    font-size: 20px;
     padding-left: 5px;
     padding-bottom: 5px;
 }
 
 .textBlock {
-    font-size: 15;
+    font-size: 15px;
     padding-left: 5px;
     padding-right: 5px; 
 }
 /*--------------------------------------------LOGIN.PHP---------------------------------------------*/
-/*--------------------------------------------SINGUP.PHP---------------------------------------------*/
+/*--------------------------------------------SIGNUP.PHP---------------------------------------------*/
 /*---Основная часть---*/
 #regClick {
-    padding: 5px 228.5px;
+    padding: 5px 155.3px;
+    background: red;
+    border: 0px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+#regLClick {
+    padding: 5px 30px;
     background: red;
     border: 0px;
     text-align: center;
@@ -199,7 +207,7 @@ footer {
 }
 
 #logRegClick {
-    padding: 5px 19.5px;
+    padding: 5px 19px;
     background: red;
     border: 0px;
     text-align: center;
@@ -210,10 +218,7 @@ footer {
 
 .centerForm {
     float: left;
-    margin-top: 15%;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-bottom: 15%;
+    margin: 15% 7%;
 }
 
 .formReg{
@@ -230,14 +235,12 @@ footer {
 
 .centerFormR {
     float: left;
-    margin-left: 7%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-right: 7%;
+    margin: 12% 17%;
 }
 
 .textReg, .textLog {
     color: black;
+    font-size: 28px;
 }
 
 .fonL {
@@ -284,7 +287,6 @@ footer {
     color: black;
     background-color: red;
     text-align: center;
-    margin: center;
     border: none;
     font-size: 28px;
     position: inherit;
@@ -295,8 +297,6 @@ footer {
 #regFormL, #regFormE, #regFormP, #regFormP2 {
     color: black;
     background-color: red;
-    text-align: center;
-    margin: center;
     border: none;
     font-size: 28px;
     position: inherit;
@@ -305,21 +305,16 @@ footer {
 }
 
 
-.errors {
-    font-size: 30px;
+#errors {
+    font-size: 20px;
     color: red;
     text-align: center;
 }
-/*@media screen and (max-width: 1280px){
-    .fonL{
-        font-size: 30px;
-    }
-}*/
 /*-------------------------------------------ACCESSDENIED.PHP-------------------------------------------*/
 /*---Основная часть---*/
 .AD, .infoAD {
     color: red;
-    font-size: 40;
+    font-size: 40px;
     text-shadow: 
                 white 1px 1px 0,
                 white -1px -1px 0,
@@ -328,13 +323,13 @@ footer {
 }
 
 .infoAD {
-    font-size: 20;
+    font-size: 20px;
 }
 
 .buttonAD, .buttonAD1 {
     margin-top: 10px 10px 10px 0px;
     padding: 10px 0px;
-    font-size: 20;
+    font-size: 20px;
     text-shadow: 
                 black 1px 1px 0,
                 black -1px -1px 0,
@@ -355,7 +350,6 @@ footer {
     border-radius: 60px;
     border: 0px solid red;
     transition: 0.075s;
-    margin: 5px 10px;
     text-align: center;
     margin-top: 10px;
     margin-left: 10px;
@@ -370,3 +364,8 @@ footer {
 /*---Шапка---*/
 /*---Основная часть---*/
 /*---Подвал---*/
+/*@media screen and (max-width: 1280px){
+    .fonL{
+        font-size: 30px;
+    }
+}*/
