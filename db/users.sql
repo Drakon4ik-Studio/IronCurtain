@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Час створення: Лис 10 2018 р., 22:37
+-- Час створення: Лис 11 2018 р., 20:22
 -- Версія сервера: 8.0.12
 -- Версія PHP: 7.2.10
 
@@ -42,7 +42,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `login`, `email`, `password`, `status`) VALUES
 (1, 'Drakon4ik', 'darkness.felcon@gmail.com1', '$2y$10$fnjWvW.5nmJXcEZb509kaeyJqICD651j2L/AKIFUZuQ2/CfPalUFu', 3),
-(3, 'root', 'darkness.felcon@gmail.com', '$2y$10$0IiTbF9OyGuiYG5LhsYAMep16ueIByD8zYFuUccor4hhKznVYFHPu', 2);
+(2, 'root', 'darkness.felcon@gmail.com', '$2y$10$0IiTbF9OyGuiYG5LhsYAMep16ueIByD8zYFuUccor4hhKznVYFHPu', 2);
 
 --
 -- Індекси збережених таблиць
@@ -62,7 +62,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT для таблиці `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
